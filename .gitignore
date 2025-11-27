@@ -1,0 +1,79 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# Virtual environments
+.env
+.env.*
+env/
+venv/
+.venv/
+.venv*/
+backend/.env
+backend/.env.*
+backend/env/
+backend/venv/
+backend/.venv/
+pip-wheel-metadata/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tooling
+.ipynb_checkpoints
+.python-version
+.pdm-build/
+.tox/
+.nox/
+.pyre/
+.coverage.*
+*.log
+
+# Node / frontend
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.turbo/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.nuxt/
+.next/
+.svelte-kit/
+.angular/
+.vscode-test/
+.vite/
+
+# Local data artifacts
+vector_store/
+*.sqlite3
+*.db
+vector_store/**/*.bin
+data/pdfs/
+
+# Misc
+logs/
+*.tmp
+
+
