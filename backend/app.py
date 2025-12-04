@@ -22,6 +22,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Suppress ChromaDB telemetry errors (harmless but noisy)
+logging.getLogger("chromadb.telemetry.product.posthog").setLevel(logging.CRITICAL)
+
 
 def create_app() -> Flask:
     """Application factory."""
